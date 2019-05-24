@@ -4,15 +4,15 @@ import Sidebar from './Sidebar'
 import styled from 'styled-components'
 
 function Index() {
-  return <h2>Ruta 1</h2>
+  return <h2>Index Route</h2>
 }
 
 function TestRoute() {
-  return <h2>Route changed</h2>
+  return <h2>You are in another Route</h2>
 }
 
 function AnotherTestRoute() {
-  return <h2>Users</h2>
+  return <h2>You are in yet another Route</h2>
 }
 
 const Container = styled.div`
