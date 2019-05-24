@@ -18,9 +18,8 @@ const Ul = styled.li`
 const Li = styled.li`
   color: lightblue
   & : visited {
-    color: lightblue 
+    color: lightblue;
   }
-
   & : hover {
     color: black
   }
