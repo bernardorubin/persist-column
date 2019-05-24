@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Sidebar from './Sidebar'
 import styled from 'styled-components'
 
-function Index() {
-  return <h2>Index Route</h2>
+function Home() {
+  return <h2>Home Route</h2>
 }
 
 function TestRoute() {
@@ -36,7 +36,7 @@ function AppRouter() {
       <Container>
         <Sidebar />
         <RouteContainer>
-          <Route path="/" exact component={Index} />
+          <Route path="/" exact component={Home} />
           <Route path="/testRoute" component={TestRoute} />
           <Route path="/anotherTestRoute" component={AnotherTestRoute} />
         </RouteContainer>

@@ -22,13 +22,13 @@ class Sidebar extends React.Component {
       <Navbar>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Home Route</Link>
           </li>
           <li>
-            <Link to="/testRoute">Change Route</Link>
+            <Link to="/testRoute">Navigate to Test Route</Link>
           </li>
           <li>
-            <Link to="/anotherTestRoute">Another Route</Link>
+            <Link to="/anotherTestRoute">Navigate to another Test Route</Link>
           </li>
         </ul>
       </Navbar>
